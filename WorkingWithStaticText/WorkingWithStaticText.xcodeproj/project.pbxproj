@@ -14,6 +14,7 @@
 		41F857672AB259EC0090CD04 /* StaticLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F857662AB259EC0090CD04 /* StaticLabels.swift */; };
 		41F8576A2AB25AED0090CD04 /* TextViewFontsColorsLineSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F857692AB25AED0090CD04 /* TextViewFontsColorsLineSpacing.swift */; };
 		41F8576C2AB261F00090CD04 /* AttributedStringTextStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F8576B2AB261F00090CD04 /* AttributedStringTextStyling.swift */; };
+		41F8576E2AB3C6170090CD04 /* AdjustTextAlignmentMultilineTextAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F8576D2AB3C6170090CD04 /* AdjustTextAlignmentMultilineTextAlignment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		41F857662AB259EC0090CD04 /* StaticLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticLabels.swift; sourceTree = "<group>"; };
 		41F857692AB25AED0090CD04 /* TextViewFontsColorsLineSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewFontsColorsLineSpacing.swift; sourceTree = "<group>"; };
 		41F8576B2AB261F00090CD04 /* AttributedStringTextStyling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributedStringTextStyling.swift; sourceTree = "<group>"; };
+		41F8576D2AB3C6170090CD04 /* AdjustTextAlignmentMultilineTextAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustTextAlignmentMultilineTextAlignment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				41F857662AB259EC0090CD04 /* StaticLabels.swift */,
 				41F857692AB25AED0090CD04 /* TextViewFontsColorsLineSpacing.swift */,
 				41F8576B2AB261F00090CD04 /* AttributedStringTextStyling.swift */,
+				41F8576D2AB3C6170090CD04 /* AdjustTextAlignmentMultilineTextAlignment.swift */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			files = (
 				41F8576A2AB25AED0090CD04 /* TextViewFontsColorsLineSpacing.swift in Sources */,
 				41F8575B2AB1209A0090CD04 /* ContentView.swift in Sources */,
+				41F8576E2AB3C6170090CD04 /* AdjustTextAlignmentMultilineTextAlignment.swift in Sources */,
 				41F8576C2AB261F00090CD04 /* AttributedStringTextStyling.swift in Sources */,
 				41F857592AB1209A0090CD04 /* WorkingWithStaticTextApp.swift in Sources */,
 				41F857672AB259EC0090CD04 /* StaticLabels.swift in Sources */,
