@@ -15,6 +15,11 @@
 		41F8576A2AB25AED0090CD04 /* TextViewFontsColorsLineSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F857692AB25AED0090CD04 /* TextViewFontsColorsLineSpacing.swift */; };
 		41F8576C2AB261F00090CD04 /* AttributedStringTextStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F8576B2AB261F00090CD04 /* AttributedStringTextStyling.swift */; };
 		41F8576E2AB3C6170090CD04 /* AdjustTextAlignmentMultilineTextAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F8576D2AB3C6170090CD04 /* AdjustTextAlignmentMultilineTextAlignment.swift */; };
+		41F857702AB3D0330090CD04 /* TextinsideTextViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F8576F2AB3D0330090CD04 /* TextinsideTextViews.swift */; };
+		41F857722AB3D2930090CD04 /* AddSpacingBetweenLettersText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F857712AB3D2930090CD04 /* AddSpacingBetweenLettersText.swift */; };
+		41F857742AB500380090CD04 /* FormatDatesinTextViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F857732AB500380090CD04 /* FormatDatesinTextViews.swift */; };
+		41F857782AB5017A0090CD04 /* TextFieldUpperLowerIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F857772AB5017A0090CD04 /* TextFieldUpperLowerIcons.swift */; };
+		41F8577A2AB504250090CD04 /* RedactedandPrivateSensitive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F857792AB504250090CD04 /* RedactedandPrivateSensitive.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +32,11 @@
 		41F857692AB25AED0090CD04 /* TextViewFontsColorsLineSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewFontsColorsLineSpacing.swift; sourceTree = "<group>"; };
 		41F8576B2AB261F00090CD04 /* AttributedStringTextStyling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributedStringTextStyling.swift; sourceTree = "<group>"; };
 		41F8576D2AB3C6170090CD04 /* AdjustTextAlignmentMultilineTextAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustTextAlignmentMultilineTextAlignment.swift; sourceTree = "<group>"; };
+		41F8576F2AB3D0330090CD04 /* TextinsideTextViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextinsideTextViews.swift; sourceTree = "<group>"; };
+		41F857712AB3D2930090CD04 /* AddSpacingBetweenLettersText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSpacingBetweenLettersText.swift; sourceTree = "<group>"; };
+		41F857732AB500380090CD04 /* FormatDatesinTextViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatDatesinTextViews.swift; sourceTree = "<group>"; };
+		41F857772AB5017A0090CD04 /* TextFieldUpperLowerIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldUpperLowerIcons.swift; sourceTree = "<group>"; };
+		41F857792AB504250090CD04 /* RedactedandPrivateSensitive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedactedandPrivateSensitive.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +93,11 @@
 				41F857692AB25AED0090CD04 /* TextViewFontsColorsLineSpacing.swift */,
 				41F8576B2AB261F00090CD04 /* AttributedStringTextStyling.swift */,
 				41F8576D2AB3C6170090CD04 /* AdjustTextAlignmentMultilineTextAlignment.swift */,
+				41F8576F2AB3D0330090CD04 /* TextinsideTextViews.swift */,
+				41F857712AB3D2930090CD04 /* AddSpacingBetweenLettersText.swift */,
+				41F857732AB500380090CD04 /* FormatDatesinTextViews.swift */,
+				41F857772AB5017A0090CD04 /* TextFieldUpperLowerIcons.swift */,
+				41F857792AB504250090CD04 /* RedactedandPrivateSensitive.swift */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -157,10 +172,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41F857742AB500380090CD04 /* FormatDatesinTextViews.swift in Sources */,
 				41F8576A2AB25AED0090CD04 /* TextViewFontsColorsLineSpacing.swift in Sources */,
+				41F857722AB3D2930090CD04 /* AddSpacingBetweenLettersText.swift in Sources */,
+				41F857702AB3D0330090CD04 /* TextinsideTextViews.swift in Sources */,
 				41F8575B2AB1209A0090CD04 /* ContentView.swift in Sources */,
 				41F8576E2AB3C6170090CD04 /* AdjustTextAlignmentMultilineTextAlignment.swift in Sources */,
 				41F8576C2AB261F00090CD04 /* AttributedStringTextStyling.swift in Sources */,
+				41F8577A2AB504250090CD04 /* RedactedandPrivateSensitive.swift in Sources */,
+				41F857782AB5017A0090CD04 /* TextFieldUpperLowerIcons.swift in Sources */,
 				41F857592AB1209A0090CD04 /* WorkingWithStaticTextApp.swift in Sources */,
 				41F857672AB259EC0090CD04 /* StaticLabels.swift in Sources */,
 			);
