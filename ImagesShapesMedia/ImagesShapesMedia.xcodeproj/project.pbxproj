@@ -15,6 +15,13 @@
 		41F653BD2AB51F0700DFB929 /* renderGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F653BC2AB51F0700DFB929 /* renderGradient.swift */; };
 		41F653BF2AB5232000DFB929 /* ImagesAsBackgrounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F653BE2AB5232000DFB929 /* ImagesAsBackgrounds.swift */; };
 		41F653C12AB524DE00DFB929 /* DisplaySolidShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F653C02AB524DE00DFB929 /* DisplaySolidShapes.swift */; };
+		41F653C32AB528A700DFB929 /* FillStrokeTrimShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F653C22AB528A700DFB929 /* FillStrokeTrimShapes.swift */; };
+		41F653C52AB8FDBC00DFB929 /* ContainerRelativeShapeEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F653C42AB8FDBC00DFB929 /* ContainerRelativeShapeEx.swift */; };
+		41F653C72AB8FE5300DFB929 /* Videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F653C62AB8FE5300DFB929 /* Videos.swift */; };
+		41F653C92AB8FFAA00DFB929 /* SpriteKitUsingSpriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F653C82AB8FFAA00DFB929 /* SpriteKitUsingSpriteView.swift */; };
+		41F653CB2AB902D000DFB929 /* loadRemoteImagefromURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F653CA2AB902D000DFB929 /* loadRemoteImagefromURL.swift */; };
+		41F653CD2AB9041A00DFB929 /* ColorsTransparencySFsymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F653CC2AB9041A00DFB929 /* ColorsTransparencySFsymbols.swift */; };
+		41F653CF2AB9082000DFB929 /* UserSelectPicturesPhotosPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F653CE2AB9082000DFB929 /* UserSelectPicturesPhotosPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +34,13 @@
 		41F653BC2AB51F0700DFB929 /* renderGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = renderGradient.swift; sourceTree = "<group>"; };
 		41F653BE2AB5232000DFB929 /* ImagesAsBackgrounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesAsBackgrounds.swift; sourceTree = "<group>"; };
 		41F653C02AB524DE00DFB929 /* DisplaySolidShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplaySolidShapes.swift; sourceTree = "<group>"; };
+		41F653C22AB528A700DFB929 /* FillStrokeTrimShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillStrokeTrimShapes.swift; sourceTree = "<group>"; };
+		41F653C42AB8FDBC00DFB929 /* ContainerRelativeShapeEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerRelativeShapeEx.swift; sourceTree = "<group>"; };
+		41F653C62AB8FE5300DFB929 /* Videos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Videos.swift; sourceTree = "<group>"; };
+		41F653C82AB8FFAA00DFB929 /* SpriteKitUsingSpriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitUsingSpriteView.swift; sourceTree = "<group>"; };
+		41F653CA2AB902D000DFB929 /* loadRemoteImagefromURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loadRemoteImagefromURL.swift; sourceTree = "<group>"; };
+		41F653CC2AB9041A00DFB929 /* ColorsTransparencySFsymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTransparencySFsymbols.swift; sourceTree = "<group>"; };
+		41F653CE2AB9082000DFB929 /* UserSelectPicturesPhotosPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSelectPicturesPhotosPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +97,13 @@
 				41F653BC2AB51F0700DFB929 /* renderGradient.swift */,
 				41F653BE2AB5232000DFB929 /* ImagesAsBackgrounds.swift */,
 				41F653C02AB524DE00DFB929 /* DisplaySolidShapes.swift */,
+				41F653C22AB528A700DFB929 /* FillStrokeTrimShapes.swift */,
+				41F653C42AB8FDBC00DFB929 /* ContainerRelativeShapeEx.swift */,
+				41F653C62AB8FE5300DFB929 /* Videos.swift */,
+				41F653C82AB8FFAA00DFB929 /* SpriteKitUsingSpriteView.swift */,
+				41F653CA2AB902D000DFB929 /* loadRemoteImagefromURL.swift */,
+				41F653CC2AB9041A00DFB929 /* ColorsTransparencySFsymbols.swift */,
+				41F653CE2AB9082000DFB929 /* UserSelectPicturesPhotosPicker.swift */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -157,11 +178,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41F653CF2AB9082000DFB929 /* UserSelectPicturesPhotosPicker.swift in Sources */,
 				41F653AE2AB5183700DFB929 /* ContentView.swift in Sources */,
 				41F653BD2AB51F0700DFB929 /* renderGradient.swift in Sources */,
+				41F653C32AB528A700DFB929 /* FillStrokeTrimShapes.swift in Sources */,
 				41F653BF2AB5232000DFB929 /* ImagesAsBackgrounds.swift in Sources */,
 				41F653AC2AB5183700DFB929 /* ImagesShapesMediaApp.swift in Sources */,
+				41F653CB2AB902D000DFB929 /* loadRemoteImagefromURL.swift in Sources */,
 				41F653C12AB524DE00DFB929 /* DisplaySolidShapes.swift in Sources */,
+				41F653C72AB8FE5300DFB929 /* Videos.swift in Sources */,
+				41F653C52AB8FDBC00DFB929 /* ContainerRelativeShapeEx.swift in Sources */,
+				41F653C92AB8FFAA00DFB929 /* SpriteKitUsingSpriteView.swift in Sources */,
+				41F653CD2AB9041A00DFB929 /* ColorsTransparencySFsymbols.swift in Sources */,
 				41F653BA2AB51DF000DFB929 /* RenderSFSymbols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
