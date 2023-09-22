@@ -9,7 +9,12 @@ import SwiftUI
 
 struct LayoutPriority: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+         Text("The rain in Spain falls mainly on the Spaniards")
+        Text("Knowledge is power, France is bacon")
+                .layoutPriority(1)
+        }
+        .font(.largeTitle)
     }
 }
 
