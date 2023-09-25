@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41223B062AC2441400A40F06 /* HideScrollIndicatorsinScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41223B052AC2441400A40F06 /* HideScrollIndicatorsinScrollView.swift */; };
+		41223B082AC244DB00A40F06 /* MultiColumnListsUsingTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41223B072AC244DB00A40F06 /* MultiColumnListsUsingTable.swift */; };
+		415D93522ABE4D5D00E9522C /* StacksGridsScrollviewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415D93512ABE4D5D00E9522C /* StacksGridsScrollviewsApp.swift */; };
+		415D93542ABE4D5D00E9522C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415D93532ABE4D5D00E9522C /* ContentView.swift */; };
+		415D93562ABE4D5F00E9522C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 415D93552ABE4D5F00E9522C /* Assets.xcassets */; };
+		415D93592ABE4D5F00E9522C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 415D93582ABE4D5F00E9522C /* Preview Assets.xcassets */; };
+		415D93632ABE4DF500E9522C /* CreateStacksVH.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415D93622ABE4DF500E9522C /* CreateStacksVH.swift */; };
+		415D93652ABE508B00E9522C /* ForceViewsStackSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415D93642ABE508B00E9522C /* ForceViewsStackSpacer.swift */; };
+		415D936B2ABE51D300E9522C /* ZStacksviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415D936A2ABE51D300E9522C /* ZStacksviews.swift */; };
+		415D936D2ABE530300E9522C /* SizeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415D936C2ABE530300E9522C /* SizeClass.swift */; };
+		415D936F2ABE556500E9522C /* HorizontalVerticalScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415D936E2ABE556500E9522C /* HorizontalVerticalScrolling.swift */; };
+		415D93712ABE5C9F00E9522C /* ScrollViewLocationScrollViewReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415D93702ABE5C9F00E9522C /* ScrollViewLocationScrollViewReader.swift */; };
+		415D93732AC0F66000E9522C /* ScrollViewandGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415D93722AC0F66000E9522C /* ScrollViewandGeometryReader.swift */; };
+		415D93752AC0FFF500E9522C /* LazyStacksVH.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415D93742AC0FFF500E9522C /* LazyStacksVH.swift */; };
+		415D93772AC22CFB00E9522C /* ViewsInFixedGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415D93762AC22CFB00E9522C /* ViewsInFixedGrid.swift */; };
+		415D93792AC22FB700E9522C /* LazyVHGrids.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415D93782AC22FB700E9522C /* LazyVHGrids.swift */; };
+		415D937B2AC232D900E9522C /* DismissKeyboardUserScrolls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415D937A2AC232D900E9522C /* DismissKeyboardUserScrolls.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41223B052AC2441400A40F06 /* HideScrollIndicatorsinScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideScrollIndicatorsinScrollView.swift; sourceTree = "<group>"; };
+		41223B072AC244DB00A40F06 /* MultiColumnListsUsingTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiColumnListsUsingTable.swift; sourceTree = "<group>"; };
+		415D934E2ABE4D5D00E9522C /* StacksGridsScrollviews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StacksGridsScrollviews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		415D93512ABE4D5D00E9522C /* StacksGridsScrollviewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksGridsScrollviewsApp.swift; sourceTree = "<group>"; };
+		415D93532ABE4D5D00E9522C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		415D93552ABE4D5F00E9522C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		415D93582ABE4D5F00E9522C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		415D93622ABE4DF500E9522C /* CreateStacksVH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateStacksVH.swift; sourceTree = "<group>"; };
+		415D93642ABE508B00E9522C /* ForceViewsStackSpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ForceViews\U0010StackSpacer.swift"; sourceTree = "<group>"; };
+		415D936A2ABE51D300E9522C /* ZStacksviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStacksviews.swift; sourceTree = "<group>"; };
+		415D936C2ABE530300E9522C /* SizeClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeClass.swift; sourceTree = "<group>"; };
+		415D936E2ABE556500E9522C /* HorizontalVerticalScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalVerticalScrolling.swift; sourceTree = "<group>"; };
+		415D93702ABE5C9F00E9522C /* ScrollViewLocationScrollViewReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewLocationScrollViewReader.swift; sourceTree = "<group>"; };
+		415D93722AC0F66000E9522C /* ScrollViewandGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewandGeometryReader.swift; sourceTree = "<group>"; };
+		415D93742AC0FFF500E9522C /* LazyStacksVH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyStacksVH.swift; sourceTree = "<group>"; };
+		415D93762AC22CFB00E9522C /* ViewsInFixedGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsInFixedGrid.swift; sourceTree = "<group>"; };
+		415D93782AC22FB700E9522C /* LazyVHGrids.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVHGrids.swift; sourceTree = "<group>"; };
+		415D937A2AC232D900E9522C /* DismissKeyboardUserScrolls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissKeyboardUserScrolls.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		415D934B2ABE4D5D00E9522C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		415D93452ABE4D5D00E9522C = {
+			isa = PBXGroup;
+			children = (
+				415D93502ABE4D5D00E9522C /* StacksGridsScrollviews */,
+				415D934F2ABE4D5D00E9522C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		415D934F2ABE4D5D00E9522C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				415D934E2ABE4D5D00E9522C /* StacksGridsScrollviews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		415D93502ABE4D5D00E9522C /* StacksGridsScrollviews */ = {
+			isa = PBXGroup;
+			children = (
+				415D93512ABE4D5D00E9522C /* StacksGridsScrollviewsApp.swift */,
+				415D93532ABE4D5D00E9522C /* ContentView.swift */,
+				41223B072AC244DB00A40F06 /* MultiColumnListsUsingTable.swift */,
+				415D935F2ABE4D8000E9522C /* Stacks */,
+				415D93612ABE4DA300E9522C /* Scrollview */,
+				415D93602ABE4D8800E9522C /* Grids */,
+				415D93552ABE4D5F00E9522C /* Assets.xcassets */,
+				415D93572ABE4D5F00E9522C /* Preview Content */,
+			);
+			path = StacksGridsScrollviews;
+			sourceTree = "<group>";
+		};
+		415D93572ABE4D5F00E9522C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				415D93582ABE4D5F00E9522C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		415D935F2ABE4D8000E9522C /* Stacks */ = {
+			isa = PBXGroup;
+			children = (
+				415D93622ABE4DF500E9522C /* CreateStacksVH.swift */,
+				415D93642ABE508B00E9522C /* ForceViewsStackSpacer.swift */,
+				415D936A2ABE51D300E9522C /* ZStacksviews.swift */,
+				415D936C2ABE530300E9522C /* SizeClass.swift */,
+			);
+			path = Stacks;
+			sourceTree = "<group>";
+		};
+		415D93602ABE4D8800E9522C /* Grids */ = {
+			isa = PBXGroup;
+			children = (
+				415D93762AC22CFB00E9522C /* ViewsInFixedGrid.swift */,
+				415D93782AC22FB700E9522C /* LazyVHGrids.swift */,
+			);
+			path = Grids;
+			sourceTree = "<group>";
+		};
+		415D93612ABE4DA300E9522C /* Scrollview */ = {
+			isa = PBXGroup;
+			children = (
+				415D936E2ABE556500E9522C /* HorizontalVerticalScrolling.swift */,
+				415D93702ABE5C9F00E9522C /* ScrollViewLocationScrollViewReader.swift */,
+				415D93722AC0F66000E9522C /* ScrollViewandGeometryReader.swift */,
+				415D93742AC0FFF500E9522C /* LazyStacksVH.swift */,
+				415D937A2AC232D900E9522C /* DismissKeyboardUserScrolls.swift */,
+				41223B052AC2441400A40F06 /* HideScrollIndicatorsinScrollView.swift */,
+			);
+			path = Scrollview;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		415D934D2ABE4D5D00E9522C /* StacksGridsScrollviews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 415D935C2ABE4D5F00E9522C /* Build configuration list for PBXNativeTarget "StacksGridsScrollviews" */;
+			buildPhases = (
+				415D934A2ABE4D5D00E9522C /* Sources */,
+				415D934B2ABE4D5D00E9522C /* Frameworks */,
+				415D934C2ABE4D5D00E9522C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StacksGridsScrollviews;
+			productName = StacksGridsScrollviews;
+			productReference = 415D934E2ABE4D5D00E9522C /* StacksGridsScrollviews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		415D93462ABE4D5D00E9522C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					415D934D2ABE4D5D00E9522C = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 415D93492ABE4D5D00E9522C /* Build configuration list for PBXProject "StacksGridsScrollviews" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 415D93452ABE4D5D00E9522C;
+			productRefGroup = 415D934F2ABE4D5D00E9522C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				415D934D2ABE4D5D00E9522C /* StacksGridsScrollviews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		415D934C2ABE4D5D00E9522C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415D93592ABE4D5F00E9522C /* Preview Assets.xcassets in Resources */,
+				415D93562ABE4D5F00E9522C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		415D934A2ABE4D5D00E9522C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415D93652ABE508B00E9522C /* ForceViewsStackSpacer.swift in Sources */,
+				41223B082AC244DB00A40F06 /* MultiColumnListsUsingTable.swift in Sources */,
+				415D936D2ABE530300E9522C /* SizeClass.swift in Sources */,
+				415D93752AC0FFF500E9522C /* LazyStacksVH.swift in Sources */,
+				415D93732AC0F66000E9522C /* ScrollViewandGeometryReader.swift in Sources */,
+				415D936B2ABE51D300E9522C /* ZStacksviews.swift in Sources */,
+				415D93712ABE5C9F00E9522C /* ScrollViewLocationScrollViewReader.swift in Sources */,
+				415D93542ABE4D5D00E9522C /* ContentView.swift in Sources */,
+				415D937B2AC232D900E9522C /* DismissKeyboardUserScrolls.swift in Sources */,
+				415D93522ABE4D5D00E9522C /* StacksGridsScrollviewsApp.swift in Sources */,
+				41223B062AC2441400A40F06 /* HideScrollIndicatorsinScrollView.swift in Sources */,
+				415D93772AC22CFB00E9522C /* ViewsInFixedGrid.swift in Sources */,
+				415D936F2ABE556500E9522C /* HorizontalVerticalScrolling.swift in Sources */,
+				415D93632ABE4DF500E9522C /* CreateStacksVH.swift in Sources */,
+				415D93792AC22FB700E9522C /* LazyVHGrids.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		415D935A2ABE4D5F00E9522C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		415D935B2ABE4D5F00E9522C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		415D935D2ABE4D5F00E9522C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StacksGridsScrollviews/Preview Content\"";
+				DEVELOPMENT_TEAM = CWCBRR328H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BJ914.StacksGridsScrollviews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		415D935E2ABE4D5F00E9522C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StacksGridsScrollviews/Preview Content\"";
+				DEVELOPMENT_TEAM = CWCBRR328H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BJ914.StacksGridsScrollviews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		415D93492ABE4D5D00E9522C /* Build configuration list for PBXProject "StacksGridsScrollviews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				415D935A2ABE4D5F00E9522C /* Debug */,
+				415D935B2ABE4D5F00E9522C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		415D935C2ABE4D5F00E9522C /* Build configuration list for PBXNativeTarget "StacksGridsScrollviews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				415D935D2ABE4D5F00E9522C /* Debug */,
+				415D935E2ABE4D5F00E9522C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 415D93462ABE4D5D00E9522C /* Project object */;
+}
