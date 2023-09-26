@@ -12,6 +12,18 @@
 		41223B1A2AC24B0000A40F06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41223B192AC24B0000A40F06 /* Assets.xcassets */; };
 		41223B1D2AC24B0000A40F06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41223B1C2AC24B0000A40F06 /* Preview Assets.xcassets */; };
 		41223B252AC24D7300A40F06 /* CreateTappableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41223B242AC24D7300A40F06 /* CreateTappableButton.swift */; };
+		41223B272AC3843400A40F06 /* BorderedButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41223B262AC3843400A40F06 /* BorderedButtons.swift */; };
+		41223B2D2AC385FB00A40F06 /* ReadFromTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41223B2C2AC385FB00A40F06 /* ReadFromTextField.swift */; };
+		41223B2F2AC3866700A40F06 /* ActionWhenUserSubmitsTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41223B2E2AC3866700A40F06 /* ActionWhenUserSubmitsTextField.swift */; };
+		41223B332AC38A7200A40F06 /* DismissKeyboardForTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41223B322AC38A7200A40F06 /* DismissKeyboardForTextField.swift */; };
+		41223B352AC38DB600A40F06 /* TextFieldExpandVertically.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41223B342AC38DB600A40F06 /* TextFieldExpandVertically.swift */; };
+		41223B372AC38E9500A40F06 /* FormatTextFieldNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41223B362AC38E9500A40F06 /* FormatTextFieldNumbers.swift */; };
+		41223B392AC38F6900A40F06 /* SecureTextwithSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41223B382AC38F6900A40F06 /* SecureTextwithSecureField.swift */; };
+		41223B3B2AC38FB600A40F06 /* CreateToggleSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41223B3A2AC38FB600A40F06 /* CreateToggleSwitch.swift */; };
+		41223B3D2AC3927200A40F06 /* CreateSliderReadValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41223B3C2AC3927200A40F06 /* CreateSliderReadValues.swift */; };
+		41223B3F2AC3997700A40F06 /* CreatePickerandReadValuesFromit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41223B3E2AC3997700A40F06 /* CreatePickerandReadValuesFromit.swift */; };
+		41223B412AC399FE00A40F06 /* DatePickerandReadValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41223B402AC399FE00A40F06 /* DatePickerandReadValues.swift */; };
+		41223B432AC39B0600A40F06 /* SegmentedControlAndReadValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41223B422AC39B0600A40F06 /* SegmentedControlAndReadValues.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +33,18 @@
 		41223B192AC24B0000A40F06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41223B1C2AC24B0000A40F06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		41223B242AC24D7300A40F06 /* CreateTappableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTappableButton.swift; sourceTree = "<group>"; };
+		41223B262AC3843400A40F06 /* BorderedButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedButtons.swift; sourceTree = "<group>"; };
+		41223B2C2AC385FB00A40F06 /* ReadFromTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadFromTextField.swift; sourceTree = "<group>"; };
+		41223B2E2AC3866700A40F06 /* ActionWhenUserSubmitsTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionWhenUserSubmitsTextField.swift; sourceTree = "<group>"; };
+		41223B322AC38A7200A40F06 /* DismissKeyboardForTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissKeyboardForTextField.swift; sourceTree = "<group>"; };
+		41223B342AC38DB600A40F06 /* TextFieldExpandVertically.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExpandVertically.swift; sourceTree = "<group>"; };
+		41223B362AC38E9500A40F06 /* FormatTextFieldNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatTextFieldNumbers.swift; sourceTree = "<group>"; };
+		41223B382AC38F6900A40F06 /* SecureTextwithSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureTextwithSecureField.swift; sourceTree = "<group>"; };
+		41223B3A2AC38FB600A40F06 /* CreateToggleSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateToggleSwitch.swift; sourceTree = "<group>"; };
+		41223B3C2AC3927200A40F06 /* CreateSliderReadValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSliderReadValues.swift; sourceTree = "<group>"; };
+		41223B3E2AC3997700A40F06 /* CreatePickerandReadValuesFromit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePickerandReadValuesFromit.swift; sourceTree = "<group>"; };
+		41223B402AC399FE00A40F06 /* DatePickerandReadValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerandReadValues.swift; sourceTree = "<group>"; };
+		41223B422AC39B0600A40F06 /* SegmentedControlAndReadValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlAndReadValues.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +98,18 @@
 			isa = PBXGroup;
 			children = (
 				41223B242AC24D7300A40F06 /* CreateTappableButton.swift */,
+				41223B262AC3843400A40F06 /* BorderedButtons.swift */,
+				41223B2C2AC385FB00A40F06 /* ReadFromTextField.swift */,
+				41223B322AC38A7200A40F06 /* DismissKeyboardForTextField.swift */,
+				41223B342AC38DB600A40F06 /* TextFieldExpandVertically.swift */,
+				41223B362AC38E9500A40F06 /* FormatTextFieldNumbers.swift */,
+				41223B382AC38F6900A40F06 /* SecureTextwithSecureField.swift */,
+				41223B3A2AC38FB600A40F06 /* CreateToggleSwitch.swift */,
+				41223B2E2AC3866700A40F06 /* ActionWhenUserSubmitsTextField.swift */,
+				41223B3C2AC3927200A40F06 /* CreateSliderReadValues.swift */,
+				41223B3E2AC3997700A40F06 /* CreatePickerandReadValuesFromit.swift */,
+				41223B402AC399FE00A40F06 /* DatePickerandReadValues.swift */,
+				41223B422AC39B0600A40F06 /* SegmentedControlAndReadValues.swift */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -148,9 +184,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41223B3B2AC38FB600A40F06 /* CreateToggleSwitch.swift in Sources */,
+				41223B2F2AC3866700A40F06 /* ActionWhenUserSubmitsTextField.swift in Sources */,
 				41223B252AC24D7300A40F06 /* CreateTappableButton.swift in Sources */,
+				41223B352AC38DB600A40F06 /* TextFieldExpandVertically.swift in Sources */,
+				41223B392AC38F6900A40F06 /* SecureTextwithSecureField.swift in Sources */,
 				41223B182AC24AFF00A40F06 /* ContentView.swift in Sources */,
+				41223B332AC38A7200A40F06 /* DismissKeyboardForTextField.swift in Sources */,
+				41223B432AC39B0600A40F06 /* SegmentedControlAndReadValues.swift in Sources */,
+				41223B2D2AC385FB00A40F06 /* ReadFromTextField.swift in Sources */,
+				41223B272AC3843400A40F06 /* BorderedButtons.swift in Sources */,
 				41223B162AC24AFF00A40F06 /* UserInterfaceControlsApp.swift in Sources */,
+				41223B3F2AC3997700A40F06 /* CreatePickerandReadValuesFromit.swift in Sources */,
+				41223B412AC399FE00A40F06 /* DatePickerandReadValues.swift in Sources */,
+				41223B3D2AC3927200A40F06 /* CreateSliderReadValues.swift in Sources */,
+				41223B372AC38E9500A40F06 /* FormatTextFieldNumbers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
