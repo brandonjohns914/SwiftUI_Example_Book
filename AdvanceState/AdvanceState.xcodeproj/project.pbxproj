@@ -16,6 +16,9 @@
 		41F4D5882AC76F6D007681D0 /* EnvironmentObjectShareDataBetweenViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F4D5872AC76F6D007681D0 /* EnvironmentObjectShareDataBetweenViews.swift */; };
 		41F4D58A2AC77102007681D0 /* SendStateUpdatesUsingObjectWillChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F4D5892AC77102007681D0 /* SendStateUpdatesUsingObjectWillChange.swift */; };
 		41F4D58C2AC77291007681D0 /* ConstantAndCustomBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F4D58B2AC77291007681D0 /* ConstantAndCustomBindings.swift */; };
+		41F4D58E2AC77700007681D0 /* TimerWithSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F4D58D2AC77700007681D0 /* TimerWithSwiftUI.swift */; };
+		41F4D5902AC779C1007681D0 /* StateChangesUsingOnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F4D58F2AC779C1007681D0 /* StateChangesUsingOnChange.swift */; };
+		41F4D5922AC77B48007681D0 /* ImageOtherViewsDarkOrLightMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F4D5912AC77B48007681D0 /* ImageOtherViewsDarkOrLightMode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		41F4D5872AC76F6D007681D0 /* EnvironmentObjectShareDataBetweenViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectShareDataBetweenViews.swift; sourceTree = "<group>"; };
 		41F4D5892AC77102007681D0 /* SendStateUpdatesUsingObjectWillChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendStateUpdatesUsingObjectWillChange.swift; sourceTree = "<group>"; };
 		41F4D58B2AC77291007681D0 /* ConstantAndCustomBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantAndCustomBindings.swift; sourceTree = "<group>"; };
+		41F4D58D2AC77700007681D0 /* TimerWithSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerWithSwiftUI.swift; sourceTree = "<group>"; };
+		41F4D58F2AC779C1007681D0 /* StateChangesUsingOnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateChangesUsingOnChange.swift; sourceTree = "<group>"; };
+		41F4D5912AC77B48007681D0 /* ImageOtherViewsDarkOrLightMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageOtherViewsDarkOrLightMode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,9 @@
 				41F4D5872AC76F6D007681D0 /* EnvironmentObjectShareDataBetweenViews.swift */,
 				41F4D5892AC77102007681D0 /* SendStateUpdatesUsingObjectWillChange.swift */,
 				41F4D58B2AC77291007681D0 /* ConstantAndCustomBindings.swift */,
+				41F4D58D2AC77700007681D0 /* TimerWithSwiftUI.swift */,
+				41F4D58F2AC779C1007681D0 /* StateChangesUsingOnChange.swift */,
+				41F4D5912AC77B48007681D0 /* ImageOtherViewsDarkOrLightMode.swift */,
 				41F4D5792AC60146007681D0 /* Assets.xcassets */,
 				41F4D57B2AC60146007681D0 /* Preview Content */,
 			);
@@ -153,12 +162,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				41F4D5782AC60144007681D0 /* ContentView.swift in Sources */,
+				41F4D58E2AC77700007681D0 /* TimerWithSwiftUI.swift in Sources */,
 				41F4D58C2AC77291007681D0 /* ConstantAndCustomBindings.swift in Sources */,
 				41F4D5842AC75C54007681D0 /* HowToUseStateObject.swift in Sources */,
 				41F4D58A2AC77102007681D0 /* SendStateUpdatesUsingObjectWillChange.swift in Sources */,
 				41F4D5762AC60144007681D0 /* AdvanceStateApp.swift in Sources */,
 				41F4D5862AC767CD007681D0 /* ObservedObjectManageExternalObjects.swift in Sources */,
 				41F4D5882AC76F6D007681D0 /* EnvironmentObjectShareDataBetweenViews.swift in Sources */,
+				41F4D5922AC77B48007681D0 /* ImageOtherViewsDarkOrLightMode.swift in Sources */,
+				41F4D5902AC779C1007681D0 /* StateChangesUsingOnChange.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
