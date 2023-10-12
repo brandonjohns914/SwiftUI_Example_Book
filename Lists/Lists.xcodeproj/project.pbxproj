@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		411EA74F2AC8D283000DDD9D /* AddSectionsToList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411EA74E2AC8D283000DDD9D /* AddSectionsToList.swift */; };
+		411EA7512AC8D377000DDD9D /* EditListUsingEditButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411EA7502AC8D377000DDD9D /* EditListUsingEditButton.swift */; };
+		411EA7532AC8D82E000DDD9D /* RowBackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411EA7522AC8D82E000DDD9D /* RowBackgroundColor.swift */; };
+		411EA7552AC8D8AF000DDD9D /* ExpandingLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411EA7542AC8D8AF000DDD9D /* ExpandingLists.swift */; };
+		411EA7572AC8D97C000DDD9D /* ScrollToSpecificRowInList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411EA7562AC8D97C000DDD9D /* ScrollToSpecificRowInList.swift */; };
+		411EA7592AC8D9E6000DDD9D /* AllowRowSelectionInList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411EA7582AC8D9E6000DDD9D /* AllowRowSelectionInList.swift */; };
+		411EA75B2AC8DAA1000DDD9D /* ImplicitStacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411EA75A2AC8DAA1000DDD9D /* ImplicitStacking.swift */; };
+		411EA75D2AC8DB4B000DDD9D /* ListRowSeparatorVisibilityAndColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411EA75C2AC8DB4B000DDD9D /* ListRowSeparatorVisibilityAndColor.swift */; };
+		411EA75F2AC8DBD3000DDD9D /* EnablePullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411EA75E2AC8DBD3000DDD9D /* EnablePullToRefresh.swift */; };
+		411EA7612AC8E91D000DDD9D /* CustomSwipeActionButtonsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411EA7602AC8E91D000DDD9D /* CustomSwipeActionButtonsRow.swift */; };
+		411EA7632AC8EC45000DDD9D /* SearchBarToFilterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411EA7622AC8EC45000DDD9D /* SearchBarToFilterData.swift */; };
+		413953252AD8ACE200AF483A /* CreateListorForEachFromBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413953242AD8ACE200AF483A /* CreateListorForEachFromBinding.swift */; };
 		41F4D5A02AC77DB0007681D0 /* ListsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F4D59F2AC77DB0007681D0 /* ListsApp.swift */; };
 		41F4D5A22AC77DB0007681D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F4D5A12AC77DB0007681D0 /* ContentView.swift */; };
 		41F4D5A42AC77DB1007681D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41F4D5A32AC77DB1007681D0 /* Assets.xcassets */; };
@@ -18,6 +30,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		411EA74E2AC8D283000DDD9D /* AddSectionsToList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSectionsToList.swift; sourceTree = "<group>"; };
+		411EA7502AC8D377000DDD9D /* EditListUsingEditButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditListUsingEditButton.swift; sourceTree = "<group>"; };
+		411EA7522AC8D82E000DDD9D /* RowBackgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowBackgroundColor.swift; sourceTree = "<group>"; };
+		411EA7542AC8D8AF000DDD9D /* ExpandingLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingLists.swift; sourceTree = "<group>"; };
+		411EA7562AC8D97C000DDD9D /* ScrollToSpecificRowInList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollToSpecificRowInList.swift; sourceTree = "<group>"; };
+		411EA7582AC8D9E6000DDD9D /* AllowRowSelectionInList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllowRowSelectionInList.swift; sourceTree = "<group>"; };
+		411EA75A2AC8DAA1000DDD9D /* ImplicitStacking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitStacking.swift; sourceTree = "<group>"; };
+		411EA75C2AC8DB4B000DDD9D /* ListRowSeparatorVisibilityAndColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowSeparatorVisibilityAndColor.swift; sourceTree = "<group>"; };
+		411EA75E2AC8DBD3000DDD9D /* EnablePullToRefresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnablePullToRefresh.swift; sourceTree = "<group>"; };
+		411EA7602AC8E91D000DDD9D /* CustomSwipeActionButtonsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSwipeActionButtonsRow.swift; sourceTree = "<group>"; };
+		411EA7622AC8EC45000DDD9D /* SearchBarToFilterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarToFilterData.swift; sourceTree = "<group>"; };
+		413953242AD8ACE200AF483A /* CreateListorForEachFromBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateListorForEachFromBinding.swift; sourceTree = "<group>"; };
 		41F4D59C2AC77DB0007681D0 /* Lists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41F4D59F2AC77DB0007681D0 /* ListsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsApp.swift; sourceTree = "<group>"; };
 		41F4D5A12AC77DB0007681D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,6 +89,18 @@
 				41F4D5AF2AC78039007681D0 /* ListOfDynamicItems.swift */,
 				41F4D5B12AC78319007681D0 /* UsersDeleteRowsFromList.swift */,
 				41F4D5B32AC786E1007681D0 /* UsersMoveRowsInList.swift */,
+				411EA74E2AC8D283000DDD9D /* AddSectionsToList.swift */,
+				411EA7502AC8D377000DDD9D /* EditListUsingEditButton.swift */,
+				411EA7522AC8D82E000DDD9D /* RowBackgroundColor.swift */,
+				411EA7542AC8D8AF000DDD9D /* ExpandingLists.swift */,
+				411EA7562AC8D97C000DDD9D /* ScrollToSpecificRowInList.swift */,
+				411EA7582AC8D9E6000DDD9D /* AllowRowSelectionInList.swift */,
+				411EA75A2AC8DAA1000DDD9D /* ImplicitStacking.swift */,
+				411EA75C2AC8DB4B000DDD9D /* ListRowSeparatorVisibilityAndColor.swift */,
+				411EA75E2AC8DBD3000DDD9D /* EnablePullToRefresh.swift */,
+				411EA7602AC8E91D000DDD9D /* CustomSwipeActionButtonsRow.swift */,
+				411EA7622AC8EC45000DDD9D /* SearchBarToFilterData.swift */,
+				413953242AD8ACE200AF483A /* CreateListorForEachFromBinding.swift */,
 				41F4D5A32AC77DB1007681D0 /* Assets.xcassets */,
 				41F4D5A52AC77DB1007681D0 /* Preview Content */,
 			);
@@ -149,9 +185,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				411EA7592AC8D9E6000DDD9D /* AllowRowSelectionInList.swift in Sources */,
+				411EA74F2AC8D283000DDD9D /* AddSectionsToList.swift in Sources */,
+				411EA75D2AC8DB4B000DDD9D /* ListRowSeparatorVisibilityAndColor.swift in Sources */,
+				413953252AD8ACE200AF483A /* CreateListorForEachFromBinding.swift in Sources */,
 				41F4D5A22AC77DB0007681D0 /* ContentView.swift in Sources */,
+				411EA75F2AC8DBD3000DDD9D /* EnablePullToRefresh.swift in Sources */,
+				411EA7552AC8D8AF000DDD9D /* ExpandingLists.swift in Sources */,
+				411EA7532AC8D82E000DDD9D /* RowBackgroundColor.swift in Sources */,
+				411EA7512AC8D377000DDD9D /* EditListUsingEditButton.swift in Sources */,
 				41F4D5AE2AC77EEA007681D0 /* ListOfStaticItems.swift in Sources */,
+				411EA75B2AC8DAA1000DDD9D /* ImplicitStacking.swift in Sources */,
+				411EA7632AC8EC45000DDD9D /* SearchBarToFilterData.swift in Sources */,
 				41F4D5A02AC77DB0007681D0 /* ListsApp.swift in Sources */,
+				411EA7572AC8D97C000DDD9D /* ScrollToSpecificRowInList.swift in Sources */,
+				411EA7612AC8E91D000DDD9D /* CustomSwipeActionButtonsRow.swift in Sources */,
 				41F4D5B02AC78039007681D0 /* ListOfDynamicItems.swift in Sources */,
 				41F4D5B22AC78319007681D0 /* UsersDeleteRowsFromList.swift in Sources */,
 				41F4D5B42AC786E1007681D0 /* UsersMoveRowsInList.swift in Sources */,
