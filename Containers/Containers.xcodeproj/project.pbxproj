@@ -17,6 +17,10 @@
 		4139536D2AD8CCA900AF483A /* HideShowStatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4139536C2AD8CCA900AF483A /* HideShowStatusBar.swift */; };
 		4139536F2AD8CD9900AF483A /* HideRevealContentDisclosureGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4139536E2AD8CD9900AF483A /* HideRevealContentDisclosureGroup.swift */; };
 		413953712AD8CE2F00AF483A /* CreateToolbarAddButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413953702AD8CE2F00AF483A /* CreateToolbarAddButtons.swift */; };
+		413953732AD8D0EC00AF483A /* BadgeToTabViewListRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413953722AD8D0EC00AF483A /* BadgeToTabViewListRows.swift */; };
+		413953752AD8D1E300AF483A /* GroupViewsUsingGroupBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413953742AD8D1E300AF483A /* GroupViewsUsingGroupBox.swift */; };
+		413953772ADB4F6300AF483A /* HowHideTabNaviOtherBars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413953762ADB4F6300AF483A /* HowHideTabNaviOtherBars.swift */; };
+		413953792ADB510900AF483A /* CustomizeColorNaviToolTabBars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413953782ADB510900AF483A /* CustomizeColorNaviToolTabBars.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,10 @@
 		4139536C2AD8CCA900AF483A /* HideShowStatusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideShowStatusBar.swift; sourceTree = "<group>"; };
 		4139536E2AD8CD9900AF483A /* HideRevealContentDisclosureGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideRevealContentDisclosureGroup.swift; sourceTree = "<group>"; };
 		413953702AD8CE2F00AF483A /* CreateToolbarAddButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateToolbarAddButtons.swift; sourceTree = "<group>"; };
+		413953722AD8D0EC00AF483A /* BadgeToTabViewListRows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeToTabViewListRows.swift; sourceTree = "<group>"; };
+		413953742AD8D1E300AF483A /* GroupViewsUsingGroupBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewsUsingGroupBox.swift; sourceTree = "<group>"; };
+		413953762ADB4F6300AF483A /* HowHideTabNaviOtherBars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowHideTabNaviOtherBars.swift; sourceTree = "<group>"; };
+		413953782ADB510900AF483A /* CustomizeColorNaviToolTabBars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeColorNaviToolTabBars.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +79,10 @@
 				4139536C2AD8CCA900AF483A /* HideShowStatusBar.swift */,
 				4139536E2AD8CD9900AF483A /* HideRevealContentDisclosureGroup.swift */,
 				413953702AD8CE2F00AF483A /* CreateToolbarAddButtons.swift */,
+				413953722AD8D0EC00AF483A /* BadgeToTabViewListRows.swift */,
+				413953742AD8D1E300AF483A /* GroupViewsUsingGroupBox.swift */,
+				413953762ADB4F6300AF483A /* HowHideTabNaviOtherBars.swift */,
+				413953782ADB510900AF483A /* CustomizeColorNaviToolTabBars.swift */,
 				4139535C2AD8C6E900AF483A /* Assets.xcassets */,
 				4139535E2AD8C6E900AF483A /* Preview Content */,
 			);
@@ -155,10 +167,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				413953772ADB4F6300AF483A /* HowHideTabNaviOtherBars.swift in Sources */,
 				4139536F2AD8CD9900AF483A /* HideRevealContentDisclosureGroup.swift in Sources */,
+				413953752AD8D1E300AF483A /* GroupViewsUsingGroupBox.swift in Sources */,
 				4139535B2AD8C6E700AF483A /* ContentView.swift in Sources */,
 				413953592AD8C6E700AF483A /* ContainersApp.swift in Sources */,
 				4139536D2AD8CCA900AF483A /* HideShowStatusBar.swift in Sources */,
+				413953732AD8D0EC00AF483A /* BadgeToTabViewListRows.swift in Sources */,
+				413953792ADB510900AF483A /* CustomizeColorNaviToolTabBars.swift in Sources */,
 				4139536B2AD8CC6400AF483A /* GroupViewsTogether.swift in Sources */,
 				413953692AD8CB9C00AF483A /* ScrollingPagesUsingTabViewStyle.swift in Sources */,
 				413953672AD8C96D00AF483A /* EmbeddedViewsInTabView.swift in Sources */,
