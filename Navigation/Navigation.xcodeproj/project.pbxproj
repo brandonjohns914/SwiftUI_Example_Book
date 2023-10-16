@@ -16,6 +16,10 @@
 		413953992ADB647500AF483A /* AddItemstoNaviView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413953982ADB647500AF483A /* AddItemstoNaviView.swift */; };
 		4139539B2ADB66D400AF483A /* PushNewViewOntoNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4139539A2ADB66D400AF483A /* PushNewViewOntoNavigationStack.swift */; };
 		4139539D2ADCBEC800AF483A /* NewViewWhenListRowTapped.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4139539C2ADCBEC800AF483A /* NewViewWhenListRowTapped.swift */; };
+		4139539F2ADDE1A200AF483A /* ProgrammaticNavigationSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4139539E2ADDE1A200AF483A /* ProgrammaticNavigationSwiftUI.swift */; };
+		413953A12ADDEBA100AF483A /* SaveLoadNaviStackPathsCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413953A02ADDEBA100AF483A /* SaveLoadNaviStackPathsCodable.swift */; };
+		413953A32ADDF9ED00AF483A /* TwoThreeColumnLayoutNavigationSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413953A22ADDF9ED00AF483A /* TwoThreeColumnLayoutNavigationSplitView.swift */; };
+		413953A52ADDFA3700AF483A /* CustomizeViewWidthinNaviSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413953A42ADDFA3700AF483A /* CustomizeViewWidthinNaviSplitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,10 @@
 		413953982ADB647500AF483A /* AddItemstoNaviView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemstoNaviView.swift; sourceTree = "<group>"; };
 		4139539A2ADB66D400AF483A /* PushNewViewOntoNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNewViewOntoNavigationStack.swift; sourceTree = "<group>"; };
 		4139539C2ADCBEC800AF483A /* NewViewWhenListRowTapped.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewWhenListRowTapped.swift; sourceTree = "<group>"; };
+		4139539E2ADDE1A200AF483A /* ProgrammaticNavigationSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticNavigationSwiftUI.swift; sourceTree = "<group>"; };
+		413953A02ADDEBA100AF483A /* SaveLoadNaviStackPathsCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveLoadNaviStackPathsCodable.swift; sourceTree = "<group>"; };
+		413953A22ADDF9ED00AF483A /* TwoThreeColumnLayoutNavigationSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoThreeColumnLayoutNavigationSplitView.swift; sourceTree = "<group>"; };
+		413953A42ADDFA3700AF483A /* CustomizeViewWidthinNaviSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeViewWidthinNaviSplitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +76,10 @@
 				413953982ADB647500AF483A /* AddItemstoNaviView.swift */,
 				4139539A2ADB66D400AF483A /* PushNewViewOntoNavigationStack.swift */,
 				4139539C2ADCBEC800AF483A /* NewViewWhenListRowTapped.swift */,
+				4139539E2ADDE1A200AF483A /* ProgrammaticNavigationSwiftUI.swift */,
+				413953A02ADDEBA100AF483A /* SaveLoadNaviStackPathsCodable.swift */,
+				413953A22ADDF9ED00AF483A /* TwoThreeColumnLayoutNavigationSplitView.swift */,
+				413953A42ADDFA3700AF483A /* CustomizeViewWidthinNaviSplitView.swift */,
 				4139538A2ADB551E00AF483A /* Assets.xcassets */,
 				4139538C2ADB551E00AF483A /* Preview Content */,
 			);
@@ -154,11 +166,15 @@
 			files = (
 				4139539B2ADB66D400AF483A /* PushNewViewOntoNavigationStack.swift in Sources */,
 				413953952ADB61F200AF483A /* EmbedViewinNavigationView.swift in Sources */,
+				413953A12ADDEBA100AF483A /* SaveLoadNaviStackPathsCodable.swift in Sources */,
 				4139539D2ADCBEC800AF483A /* NewViewWhenListRowTapped.swift in Sources */,
 				413953892ADB551C00AF483A /* ContentView.swift in Sources */,
 				413953872ADB551C00AF483A /* NavigationApp.swift in Sources */,
 				413953972ADB63DA00AF483A /* UsersEditNaviTitle.swift in Sources */,
+				413953A52ADDFA3700AF483A /* CustomizeViewWidthinNaviSplitView.swift in Sources */,
+				413953A32ADDF9ED00AF483A /* TwoThreeColumnLayoutNavigationSplitView.swift in Sources */,
 				413953992ADB647500AF483A /* AddItemstoNaviView.swift in Sources */,
+				4139539F2ADDE1A200AF483A /* ProgrammaticNavigationSwiftUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
