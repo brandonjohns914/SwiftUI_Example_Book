@@ -12,6 +12,9 @@
 		413953B72ADDFAA400AF483A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 413953B62ADDFAA400AF483A /* Assets.xcassets */; };
 		413953BA2ADDFAA400AF483A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 413953B92ADDFAA400AF483A /* Preview Assets.xcassets */; };
 		413953C32ADE067800AF483A /* HowToShowanAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413953C22ADE067800AF483A /* HowToShowanAlert.swift */; };
+		413953C52ADF66AC00AF483A /* AddTextFieldToanAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413953C42ADF66AC00AF483A /* AddTextFieldToanAlert.swift */; };
+		413953C72ADF682D00AF483A /* AddActionsToAlertButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413953C62ADF682D00AF483A /* AddActionsToAlertButtons.swift */; };
+		413953C92ADF68BF00AF483A /* MultipleAlertsInSingleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413953C82ADF68BF00AF483A /* MultipleAlertsInSingleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		413953B62ADDFAA400AF483A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		413953B92ADDFAA400AF483A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		413953C22ADE067800AF483A /* HowToShowanAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToShowanAlert.swift; sourceTree = "<group>"; };
+		413953C42ADF66AC00AF483A /* AddTextFieldToanAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTextFieldToanAlert.swift; sourceTree = "<group>"; };
+		413953C62ADF682D00AF483A /* AddActionsToAlertButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActionsToAlertButtons.swift; sourceTree = "<group>"; };
+		413953C82ADF68BF00AF483A /* MultipleAlertsInSingleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleAlertsInSingleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 				413953B22ADDFAA200AF483A /* AlertsandMenusApp.swift */,
 				413953B42ADDFAA200AF483A /* ContentView.swift */,
 				413953C22ADE067800AF483A /* HowToShowanAlert.swift */,
+				413953C42ADF66AC00AF483A /* AddTextFieldToanAlert.swift */,
+				413953C62ADF682D00AF483A /* AddActionsToAlertButtons.swift */,
+				413953C82ADF68BF00AF483A /* MultipleAlertsInSingleView.swift */,
 				413953B62ADDFAA400AF483A /* Assets.xcassets */,
 				413953B82ADDFAA400AF483A /* Preview Content */,
 			);
@@ -140,8 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				413953C92ADF68BF00AF483A /* MultipleAlertsInSingleView.swift in Sources */,
+				413953C72ADF682D00AF483A /* AddActionsToAlertButtons.swift in Sources */,
 				413953B52ADDFAA200AF483A /* ContentView.swift in Sources */,
 				413953B32ADDFAA200AF483A /* AlertsandMenusApp.swift in Sources */,
+				413953C52ADF66AC00AF483A /* AddTextFieldToanAlert.swift in Sources */,
 				413953C32ADE067800AF483A /* HowToShowanAlert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
