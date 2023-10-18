@@ -15,6 +15,10 @@
 		413953C52ADF66AC00AF483A /* AddTextFieldToanAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413953C42ADF66AC00AF483A /* AddTextFieldToanAlert.swift */; };
 		413953C72ADF682D00AF483A /* AddActionsToAlertButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413953C62ADF682D00AF483A /* AddActionsToAlertButtons.swift */; };
 		413953C92ADF68BF00AF483A /* MultipleAlertsInSingleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413953C82ADF68BF00AF483A /* MultipleAlertsInSingleView.swift */; };
+		413953CB2ADF699B00AF483A /* HowToShowanActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413953CA2ADF699B00AF483A /* HowToShowanActionSheet.swift */; };
+		413953CD2ADF6AC800AF483A /* HowToShowContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413953CC2ADF6AC800AF483A /* HowToShowContextMenu.swift */; };
+		413953CF2ADF6BC200AF483A /* HowtoShowMenuWhenButtonPressed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413953CE2ADF6BC200AF483A /* HowtoShowMenuWhenButtonPressed.swift */; };
+		413953D12ADF6C3F00AF483A /* LetUsersPickOptionsFromMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413953D02ADF6C3F00AF483A /* LetUsersPickOptionsFromMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +31,10 @@
 		413953C42ADF66AC00AF483A /* AddTextFieldToanAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTextFieldToanAlert.swift; sourceTree = "<group>"; };
 		413953C62ADF682D00AF483A /* AddActionsToAlertButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActionsToAlertButtons.swift; sourceTree = "<group>"; };
 		413953C82ADF68BF00AF483A /* MultipleAlertsInSingleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleAlertsInSingleView.swift; sourceTree = "<group>"; };
+		413953CA2ADF699B00AF483A /* HowToShowanActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToShowanActionSheet.swift; sourceTree = "<group>"; };
+		413953CC2ADF6AC800AF483A /* HowToShowContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToShowContextMenu.swift; sourceTree = "<group>"; };
+		413953CE2ADF6BC200AF483A /* HowtoShowMenuWhenButtonPressed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowtoShowMenuWhenButtonPressed.swift; sourceTree = "<group>"; };
+		413953D02ADF6C3F00AF483A /* LetUsersPickOptionsFromMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetUsersPickOptionsFromMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +73,10 @@
 				413953C42ADF66AC00AF483A /* AddTextFieldToanAlert.swift */,
 				413953C62ADF682D00AF483A /* AddActionsToAlertButtons.swift */,
 				413953C82ADF68BF00AF483A /* MultipleAlertsInSingleView.swift */,
+				413953CA2ADF699B00AF483A /* HowToShowanActionSheet.swift */,
+				413953CC2ADF6AC800AF483A /* HowToShowContextMenu.swift */,
+				413953CE2ADF6BC200AF483A /* HowtoShowMenuWhenButtonPressed.swift */,
+				413953D02ADF6C3F00AF483A /* LetUsersPickOptionsFromMenu.swift */,
 				413953B62ADDFAA400AF483A /* Assets.xcassets */,
 				413953B82ADDFAA400AF483A /* Preview Content */,
 			);
@@ -150,9 +162,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				413953C92ADF68BF00AF483A /* MultipleAlertsInSingleView.swift in Sources */,
+				413953CD2ADF6AC800AF483A /* HowToShowContextMenu.swift in Sources */,
 				413953C72ADF682D00AF483A /* AddActionsToAlertButtons.swift in Sources */,
+				413953CF2ADF6BC200AF483A /* HowtoShowMenuWhenButtonPressed.swift in Sources */,
 				413953B52ADDFAA200AF483A /* ContentView.swift in Sources */,
 				413953B32ADDFAA200AF483A /* AlertsandMenusApp.swift in Sources */,
+				413953CB2ADF699B00AF483A /* HowToShowanActionSheet.swift in Sources */,
+				413953D12ADF6C3F00AF483A /* LetUsersPickOptionsFromMenu.swift in Sources */,
 				413953C52ADF66AC00AF483A /* AddTextFieldToanAlert.swift in Sources */,
 				413953C32ADE067800AF483A /* HowToShowanAlert.swift in Sources */,
 			);
