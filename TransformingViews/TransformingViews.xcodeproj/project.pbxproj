@@ -18,6 +18,19 @@
 		41322FA72AE0B016008E13D3 /* HowToDrawBorderInsideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41322FA62AE0B016008E13D3 /* HowToDrawBorderInsideView.swift */; };
 		41322FA92AE0B0B3008E13D3 /* HowToCreateMarchingAntsBorderEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41322FA82AE0B0B3008E13D3 /* HowToCreateMarchingAntsBorderEffect.swift */; };
 		41322FAB2AE0B197008E13D3 /* HowToDrawShadowAroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41322FAA2AE0B197008E13D3 /* HowToDrawShadowAroundView.swift */; };
+		41DF685E2AE1D860004D4573 /* ClipViewOnlyPartisVisible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DF685D2AE1D860004D4573 /* ClipViewOnlyPartisVisible.swift */; };
+		41DF68602AE1D8EA004D4573 /* HowToRotateAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DF685F2AE1D8EA004D4573 /* HowToRotateAView.swift */; };
+		41DF68622AE1D9D8004D4573 /* HowToRotate3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DF68612AE1D9D8004D4573 /* HowToRotate3D.swift */; };
+		41DF68642AE1DA37004D4573 /* HowToScaleViewUpDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DF68632AE1DA37004D4573 /* HowToScaleViewUpDown.swift */; };
+		41DF68662AE1DB12004D4573 /* HowToRoundCornersOfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DF68652AE1DB12004D4573 /* HowToRoundCornersOfView.swift */; };
+		41DF68682AE1DB5E004D4573 /* HowToAdjustOpacityOfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DF68672AE1DB5E004D4573 /* HowToAdjustOpacityOfView.swift */; };
+		41DF686A2AE1DBD3004D4573 /* HowToAdjustAccentColorOfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DF68692AE1DBD3004D4573 /* HowToAdjustAccentColorOfView.swift */; };
+		41DF686C2AE1DC31004D4573 /* HowToBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DF686B2AE1DC31004D4573 /* HowToBlurView.swift */; };
+		41DF686E2AE1DC71004D4573 /* HowToBlendViewsTogether.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DF686D2AE1DC71004D4573 /* HowToBlendViewsTogether.swift */; };
+		41DF68702AE1DCDC004D4573 /* CustomizingButtonWithButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DF686F2AE1DCDC004D4573 /* CustomizingButtonWithButtonStyle.swift */; };
+		41DF68742AE1DDF2004D4573 /* CustomizingProgressViewUsingProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DF68732AE1DDF2004D4573 /* CustomizingProgressViewUsingProgressViewStyle.swift */; };
+		41DF68762AE1E368004D4573 /* CustomizingToggleWithToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DF68752AE1E368004D4573 /* CustomizingToggleWithToggleStyle.swift */; };
+		41DF68782AE1E461004D4573 /* HowToChangeTheBackgroundColorofListTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DF68772AE1E461004D4573 /* HowToChangeTheBackgroundColorofListTextEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +46,19 @@
 		41322FA62AE0B016008E13D3 /* HowToDrawBorderInsideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToDrawBorderInsideView.swift; sourceTree = "<group>"; };
 		41322FA82AE0B0B3008E13D3 /* HowToCreateMarchingAntsBorderEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToCreateMarchingAntsBorderEffect.swift; sourceTree = "<group>"; };
 		41322FAA2AE0B197008E13D3 /* HowToDrawShadowAroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToDrawShadowAroundView.swift; sourceTree = "<group>"; };
+		41DF685D2AE1D860004D4573 /* ClipViewOnlyPartisVisible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipViewOnlyPartisVisible.swift; sourceTree = "<group>"; };
+		41DF685F2AE1D8EA004D4573 /* HowToRotateAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToRotateAView.swift; sourceTree = "<group>"; };
+		41DF68612AE1D9D8004D4573 /* HowToRotate3D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToRotate3D.swift; sourceTree = "<group>"; };
+		41DF68632AE1DA37004D4573 /* HowToScaleViewUpDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToScaleViewUpDown.swift; sourceTree = "<group>"; };
+		41DF68652AE1DB12004D4573 /* HowToRoundCornersOfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToRoundCornersOfView.swift; sourceTree = "<group>"; };
+		41DF68672AE1DB5E004D4573 /* HowToAdjustOpacityOfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToAdjustOpacityOfView.swift; sourceTree = "<group>"; };
+		41DF68692AE1DBD3004D4573 /* HowToAdjustAccentColorOfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToAdjustAccentColorOfView.swift; sourceTree = "<group>"; };
+		41DF686B2AE1DC31004D4573 /* HowToBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToBlurView.swift; sourceTree = "<group>"; };
+		41DF686D2AE1DC71004D4573 /* HowToBlendViewsTogether.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToBlendViewsTogether.swift; sourceTree = "<group>"; };
+		41DF686F2AE1DCDC004D4573 /* CustomizingButtonWithButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizingButtonWithButtonStyle.swift; sourceTree = "<group>"; };
+		41DF68732AE1DDF2004D4573 /* CustomizingProgressViewUsingProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizingProgressViewUsingProgressViewStyle.swift; sourceTree = "<group>"; };
+		41DF68752AE1E368004D4573 /* CustomizingToggleWithToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizingToggleWithToggleStyle.swift; sourceTree = "<group>"; };
+		41DF68772AE1E461004D4573 /* HowToChangeTheBackgroundColorofListTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToChangeTheBackgroundColorofListTextEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +100,19 @@
 				41322FA62AE0B016008E13D3 /* HowToDrawBorderInsideView.swift */,
 				41322FA82AE0B0B3008E13D3 /* HowToCreateMarchingAntsBorderEffect.swift */,
 				41322FAA2AE0B197008E13D3 /* HowToDrawShadowAroundView.swift */,
+				41DF685D2AE1D860004D4573 /* ClipViewOnlyPartisVisible.swift */,
+				41DF685F2AE1D8EA004D4573 /* HowToRotateAView.swift */,
+				41DF68612AE1D9D8004D4573 /* HowToRotate3D.swift */,
+				41DF68632AE1DA37004D4573 /* HowToScaleViewUpDown.swift */,
+				41DF68652AE1DB12004D4573 /* HowToRoundCornersOfView.swift */,
+				41DF68672AE1DB5E004D4573 /* HowToAdjustOpacityOfView.swift */,
+				41DF68692AE1DBD3004D4573 /* HowToAdjustAccentColorOfView.swift */,
+				41DF686B2AE1DC31004D4573 /* HowToBlurView.swift */,
+				41DF686D2AE1DC71004D4573 /* HowToBlendViewsTogether.swift */,
+				41DF686F2AE1DCDC004D4573 /* CustomizingButtonWithButtonStyle.swift */,
+				41DF68732AE1DDF2004D4573 /* CustomizingProgressViewUsingProgressViewStyle.swift */,
+				41DF68752AE1E368004D4573 /* CustomizingToggleWithToggleStyle.swift */,
+				41DF68772AE1E461004D4573 /* HowToChangeTheBackgroundColorofListTextEditor.swift */,
 				41322F942AE0A9F5008E13D3 /* Assets.xcassets */,
 				41322F962AE0A9F5008E13D3 /* Preview Content */,
 			);
@@ -158,15 +197,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41DF685E2AE1D860004D4573 /* ClipViewOnlyPartisVisible.swift in Sources */,
+				41DF68602AE1D8EA004D4573 /* HowToRotateAView.swift in Sources */,
+				41DF68782AE1E461004D4573 /* HowToChangeTheBackgroundColorofListTextEditor.swift in Sources */,
+				41DF686E2AE1DC71004D4573 /* HowToBlendViewsTogether.swift in Sources */,
 				41322F9F2AE0AA2C008E13D3 /* AdjustPositionOfViewUsingOffset.swift in Sources */,
+				41DF68662AE1DB12004D4573 /* HowToRoundCornersOfView.swift in Sources */,
+				41DF68742AE1DDF2004D4573 /* CustomizingProgressViewUsingProgressViewStyle.swift in Sources */,
 				41322FA52AE0AF41008E13D3 /* HowToDrawBorderAroundView.swift in Sources */,
 				41322F932AE0A9F3008E13D3 /* ContentView.swift in Sources */,
 				41322FA92AE0B0B3008E13D3 /* HowToCreateMarchingAntsBorderEffect.swift in Sources */,
+				41DF686C2AE1DC31004D4573 /* HowToBlurView.swift in Sources */,
+				41DF68762AE1E368004D4573 /* CustomizingToggleWithToggleStyle.swift in Sources */,
 				41322FAB2AE0B197008E13D3 /* HowToDrawShadowAroundView.swift in Sources */,
+				41DF68682AE1DB5E004D4573 /* HowToAdjustOpacityOfView.swift in Sources */,
 				41322FA32AE0AE96008E13D3 /* HowToStackModifiersToCreateEffects.swift in Sources */,
 				41322FA72AE0B016008E13D3 /* HowToDrawBorderInsideView.swift in Sources */,
+				41DF68622AE1D9D8004D4573 /* HowToRotate3D.swift in Sources */,
 				41322FA12AE0ADF5008E13D3 /* ColorThePaddingAroundAView.swift in Sources */,
 				41322F912AE0A9F3008E13D3 /* TransformingViewsApp.swift in Sources */,
+				41DF686A2AE1DBD3004D4573 /* HowToAdjustAccentColorOfView.swift in Sources */,
+				41DF68702AE1DCDC004D4573 /* CustomizingButtonWithButtonStyle.swift in Sources */,
+				41DF68642AE1DA37004D4573 /* HowToScaleViewUpDown.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
