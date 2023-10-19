@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41322F812AE0A799008E13D3 /* PreventSheetFromBeingDismissedSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41322F802AE0A799008E13D3 /* PreventSheetFromBeingDismissedSwipe.swift */; };
+		41322F832AE0A8AF008E13D3 /* HowToDisplayBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41322F822AE0A8AF008E13D3 /* HowToDisplayBottomSheet.swift */; };
 		413953B32ADDFAA200AF483A /* AlertsandMenusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413953B22ADDFAA200AF483A /* AlertsandMenusApp.swift */; };
 		413953B52ADDFAA200AF483A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413953B42ADDFAA200AF483A /* ContentView.swift */; };
 		413953B72ADDFAA400AF483A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 413953B62ADDFAA400AF483A /* Assets.xcassets */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41322F802AE0A799008E13D3 /* PreventSheetFromBeingDismissedSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreventSheetFromBeingDismissedSwipe.swift; sourceTree = "<group>"; };
+		41322F822AE0A8AF008E13D3 /* HowToDisplayBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToDisplayBottomSheet.swift; sourceTree = "<group>"; };
 		413953AF2ADDFAA200AF483A /* AlertsandMenus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlertsandMenus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		413953B22ADDFAA200AF483A /* AlertsandMenusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsandMenusApp.swift; sourceTree = "<group>"; };
 		413953B42ADDFAA200AF483A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +81,8 @@
 				413953CC2ADF6AC800AF483A /* HowToShowContextMenu.swift */,
 				413953CE2ADF6BC200AF483A /* HowtoShowMenuWhenButtonPressed.swift */,
 				413953D02ADF6C3F00AF483A /* LetUsersPickOptionsFromMenu.swift */,
+				41322F802AE0A799008E13D3 /* PreventSheetFromBeingDismissedSwipe.swift */,
+				41322F822AE0A8AF008E13D3 /* HowToDisplayBottomSheet.swift */,
 				413953B62ADDFAA400AF483A /* Assets.xcassets */,
 				413953B82ADDFAA400AF483A /* Preview Content */,
 			);
@@ -166,6 +172,8 @@
 				413953C72ADF682D00AF483A /* AddActionsToAlertButtons.swift in Sources */,
 				413953CF2ADF6BC200AF483A /* HowtoShowMenuWhenButtonPressed.swift in Sources */,
 				413953B52ADDFAA200AF483A /* ContentView.swift in Sources */,
+				41322F832AE0A8AF008E13D3 /* HowToDisplayBottomSheet.swift in Sources */,
+				41322F812AE0A799008E13D3 /* PreventSheetFromBeingDismissedSwipe.swift in Sources */,
 				413953B32ADDFAA200AF483A /* AlertsandMenusApp.swift in Sources */,
 				413953CB2ADF699B00AF483A /* HowToShowanActionSheet.swift in Sources */,
 				413953D12ADF6C3F00AF483A /* LetUsersPickOptionsFromMenu.swift in Sources */,
