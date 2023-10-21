@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41440C162AE34A200004B449 /* HowToDrawCheckerboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41440C152AE34A200004B449 /* HowToDrawCheckerboard.swift */; };
 		41DF68862AE1E4DD004D4573 /* DrawingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DF68852AE1E4DD004D4573 /* DrawingApp.swift */; };
 		41DF68882AE1E4DD004D4573 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DF68872AE1E4DD004D4573 /* ContentView.swift */; };
 		41DF688A2AE1E4DF004D4573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41DF68892AE1E4DF004D4573 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41440C152AE34A200004B449 /* HowToDrawCheckerboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToDrawCheckerboard.swift; sourceTree = "<group>"; };
 		41DF68822AE1E4DD004D4573 /* Drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41DF68852AE1E4DD004D4573 /* DrawingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingApp.swift; sourceTree = "<group>"; };
 		41DF68872AE1E4DD004D4573 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				41FE31782AE1F00600A48F5E /* SwiftsBuiltInShapes.swift */,
 				41FE317A2AE1F14600A48F5E /* HowToDrawCustomPath.swift */,
 				41FE317C2AE1F36E00A48F5E /* HowToDrawPolygonsAndStars.swift */,
+				41440C152AE34A200004B449 /* HowToDrawCheckerboard.swift */,
 				41DF68892AE1E4DF004D4573 /* Assets.xcassets */,
 				41DF688B2AE1E4DF004D4573 /* Preview Content */,
 			);
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41440C162AE34A200004B449 /* HowToDrawCheckerboard.swift in Sources */,
 				41FE31792AE1F00600A48F5E /* SwiftsBuiltInShapes.swift in Sources */,
 				41DF68882AE1E4DD004D4573 /* ContentView.swift in Sources */,
 				41DF68862AE1E4DD004D4573 /* DrawingApp.swift in Sources */,

@@ -77,7 +77,7 @@ struct Star: Shape {
         let transform = CGAffineTransform(translationX: center.x, y: center.y + unusedSpace)
         return path.applying(transform)
     }
-    
+}
     
     
     struct HowToDrawPolygonsAndStars: View {
