@@ -12,6 +12,10 @@
 		41440C602AE6002C0004B449 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41440C5F2AE6002C0004B449 /* Assets.xcassets */; };
 		41440C632AE6002C0004B449 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41440C622AE6002C0004B449 /* Preview Assets.xcassets */; };
 		41440C6A2AE6009F0004B449 /* HowToCreateComposeCustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41440C692AE6009F0004B449 /* HowToCreateComposeCustomViews.swift */; };
+		41440C6C2AE717620004B449 /* HowToCombineTextViewsTogether.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41440C6B2AE717620004B449 /* HowToCombineTextViewsTogether.swift */; };
+		41440C6E2AE722D90004B449 /* HowToStoreViewsAsProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41440C6D2AE722D90004B449 /* HowToStoreViewsAsProperties.swift */; };
+		41440C702AE7238B0004B449 /* HowToCreateCustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41440C6F2AE7238B0004B449 /* HowToCreateCustomModifiers.swift */; };
+		41440C722AE725A40004B449 /* HowToInsertImagesIntoText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41440C712AE725A40004B449 /* HowToInsertImagesIntoText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		41440C5F2AE6002C0004B449 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41440C622AE6002C0004B449 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		41440C692AE6009F0004B449 /* HowToCreateComposeCustomViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToCreateComposeCustomViews.swift; sourceTree = "<group>"; };
+		41440C6B2AE717620004B449 /* HowToCombineTextViewsTogether.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToCombineTextViewsTogether.swift; sourceTree = "<group>"; };
+		41440C6D2AE722D90004B449 /* HowToStoreViewsAsProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToStoreViewsAsProperties.swift; sourceTree = "<group>"; };
+		41440C6F2AE7238B0004B449 /* HowToCreateCustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToCreateCustomModifiers.swift; sourceTree = "<group>"; };
+		41440C712AE725A40004B449 /* HowToInsertImagesIntoText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToInsertImagesIntoText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 				41440C5B2AE6002A0004B449 /* ComposingViewsApp.swift */,
 				41440C5D2AE6002A0004B449 /* ContentView.swift */,
 				41440C692AE6009F0004B449 /* HowToCreateComposeCustomViews.swift */,
+				41440C6B2AE717620004B449 /* HowToCombineTextViewsTogether.swift */,
+				41440C6D2AE722D90004B449 /* HowToStoreViewsAsProperties.swift */,
+				41440C6F2AE7238B0004B449 /* HowToCreateCustomModifiers.swift */,
+				41440C712AE725A40004B449 /* HowToInsertImagesIntoText.swift */,
 				41440C5F2AE6002C0004B449 /* Assets.xcassets */,
 				41440C612AE6002C0004B449 /* Preview Content */,
 			);
@@ -140,9 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41440C702AE7238B0004B449 /* HowToCreateCustomModifiers.swift in Sources */,
 				41440C5E2AE6002A0004B449 /* ContentView.swift in Sources */,
+				41440C6E2AE722D90004B449 /* HowToStoreViewsAsProperties.swift in Sources */,
+				41440C6C2AE717620004B449 /* HowToCombineTextViewsTogether.swift in Sources */,
 				41440C5C2AE6002A0004B449 /* ComposingViewsApp.swift in Sources */,
 				41440C6A2AE6009F0004B449 /* HowToCreateComposeCustomViews.swift in Sources */,
+				41440C722AE725A40004B449 /* HowToInsertImagesIntoText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
