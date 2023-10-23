@@ -19,6 +19,12 @@
 		41440C3E2AE354040004B449 /* HowToStartAnimationImmediatelyWhenViewAppears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41440C3D2AE354040004B449 /* HowToStartAnimationImmediatelyWhenViewAppears.swift */; };
 		41440C402AE3561C0004B449 /* HowToApplyMultipleAnimationsToView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41440C3F2AE3561C0004B449 /* HowToApplyMultipleAnimationsToView.swift */; };
 		41440C422AE356940004B449 /* HowToSynchronizeAnimationsFromOneViewToAnother.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41440C412AE356940004B449 /* HowToSynchronizeAnimationsFromOneViewToAnother.swift */; };
+		41440C442AE5F8A30004B449 /* HowToAddRemoveViewsTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41440C432AE5F8A30004B449 /* HowToAddRemoveViewsTransition.swift */; };
+		41440C462AE5F9320004B449 /* HowToCombineTranisitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41440C452AE5F9320004B449 /* HowToCombineTranisitions.swift */; };
+		41440C482AE5FAA40004B449 /* HowToCreateAsymmetricTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41440C472AE5FAA40004B449 /* HowToCreateAsymmetricTransitions.swift */; };
+		41440C4A2AE5FB0A0004B449 /* HowToCreateCustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41440C492AE5FB0A0004B449 /* HowToCreateCustomTransition.swift */; };
+		41440C4C2AE5FBB80004B449 /* HowToAnimateSizeOfText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41440C4B2AE5FBB80004B449 /* HowToAnimateSizeOfText.swift */; };
+		41440C4E2AE5FE360004B449 /* HowToOverrideAnimationsWithTransactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41440C4D2AE5FE360004B449 /* HowToOverrideAnimationsWithTransactions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +41,12 @@
 		41440C3D2AE354040004B449 /* HowToStartAnimationImmediatelyWhenViewAppears.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToStartAnimationImmediatelyWhenViewAppears.swift; sourceTree = "<group>"; };
 		41440C3F2AE3561C0004B449 /* HowToApplyMultipleAnimationsToView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToApplyMultipleAnimationsToView.swift; sourceTree = "<group>"; };
 		41440C412AE356940004B449 /* HowToSynchronizeAnimationsFromOneViewToAnother.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToSynchronizeAnimationsFromOneViewToAnother.swift; sourceTree = "<group>"; };
+		41440C432AE5F8A30004B449 /* HowToAddRemoveViewsTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToAddRemoveViewsTransition.swift; sourceTree = "<group>"; };
+		41440C452AE5F9320004B449 /* HowToCombineTranisitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToCombineTranisitions.swift; sourceTree = "<group>"; };
+		41440C472AE5FAA40004B449 /* HowToCreateAsymmetricTransitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToCreateAsymmetricTransitions.swift; sourceTree = "<group>"; };
+		41440C492AE5FB0A0004B449 /* HowToCreateCustomTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToCreateCustomTransition.swift; sourceTree = "<group>"; };
+		41440C4B2AE5FBB80004B449 /* HowToAnimateSizeOfText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToAnimateSizeOfText.swift; sourceTree = "<group>"; };
+		41440C4D2AE5FE360004B449 /* HowToOverrideAnimationsWithTransactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToOverrideAnimationsWithTransactions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,12 @@
 				41440C3D2AE354040004B449 /* HowToStartAnimationImmediatelyWhenViewAppears.swift */,
 				41440C3F2AE3561C0004B449 /* HowToApplyMultipleAnimationsToView.swift */,
 				41440C412AE356940004B449 /* HowToSynchronizeAnimationsFromOneViewToAnother.swift */,
+				41440C432AE5F8A30004B449 /* HowToAddRemoveViewsTransition.swift */,
+				41440C452AE5F9320004B449 /* HowToCombineTranisitions.swift */,
+				41440C472AE5FAA40004B449 /* HowToCreateAsymmetricTransitions.swift */,
+				41440C492AE5FB0A0004B449 /* HowToCreateCustomTransition.swift */,
+				41440C4B2AE5FBB80004B449 /* HowToAnimateSizeOfText.swift */,
+				41440C4D2AE5FE360004B449 /* HowToOverrideAnimationsWithTransactions.swift */,
 				41440C292AE34C500004B449 /* Assets.xcassets */,
 				41440C2B2AE34C500004B449 /* Preview Content */,
 			);
@@ -162,12 +180,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				41440C282AE34C4E0004B449 /* ContentView.swift in Sources */,
+				41440C4E2AE5FE360004B449 /* HowToOverrideAnimationsWithTransactions.swift in Sources */,
 				41440C402AE3561C0004B449 /* HowToApplyMultipleAnimationsToView.swift in Sources */,
+				41440C482AE5FAA40004B449 /* HowToCreateAsymmetricTransitions.swift in Sources */,
 				41440C262AE34C4E0004B449 /* AnimationsApp.swift in Sources */,
+				41440C442AE5F8A30004B449 /* HowToAddRemoveViewsTransition.swift in Sources */,
 				41440C3E2AE354040004B449 /* HowToStartAnimationImmediatelyWhenViewAppears.swift in Sources */,
 				41440C362AE34DBD0004B449 /* HowToCreateSpringAninmation.swift in Sources */,
+				41440C4A2AE5FB0A0004B449 /* HowToCreateCustomTransition.swift in Sources */,
+				41440C462AE5F9320004B449 /* HowToCombineTranisitions.swift in Sources */,
 				41440C382AE34E2E0004B449 /* HowToAnimateChangesBindingValues.swift in Sources */,
 				41440C422AE356940004B449 /* HowToSynchronizeAnimationsFromOneViewToAnother.swift in Sources */,
+				41440C4C2AE5FBB80004B449 /* HowToAnimateSizeOfText.swift in Sources */,
 				41440C3A2AE352510004B449 /* HowToCreateExplicitAnimation.swift in Sources */,
 				41440C3C2AE352B00004B449 /* HowToDelayAnimation.swift in Sources */,
 				41440C342AE34C750004B449 /* HowToCreateBasicAnimations.swift in Sources */,
